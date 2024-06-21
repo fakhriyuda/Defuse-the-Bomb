@@ -2,12 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>We need to set your device as bomb</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
+        <key>NSLocationAlwaysUsageDescription</key>
+        <string>We need your location to search for the bomb.</string>
+        <key>NSLocationWhenInUseUsageDescription</key>
+        <string>We need your location to search for the bomb.</string>
+        <key>NSBluetoothPeripheralUsageDescription</key>
+        <string>We need Bluetooth to search for the bomb.</string>
+        <key>NSBluetoothAlwaysUsageDescription</key>
+        <string>We need Bluetooth to search for the bomb.</string>
 		<key>UISceneConfigurations</key>
 		<dict>
 			<key>UIWindowSceneSessionRoleApplication</key>
@@ -23,9 +29,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need your location to detect beacons.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We need your location to detect beacons even when the app is in the background.</string>
 </dict>
 </plist>
