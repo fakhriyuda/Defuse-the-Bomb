@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82407BB2C1162E30085403B /* clicks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E82407BA2C1162E30085403B /* clicks.mp3 */; };
+		E82407BD2C1168B00085403B /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E82407BC2C1168B00085403B /* click.mp3 */; };
+		E82407C12C116F4B0085403B /* backgroundmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E82407C02C116F4B0085403B /* backgroundmusic.mp3 */; };
+		E82407C32C1172E60085403B /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E82407C22C1172E60085403B /* bomb.mp3 */; };
+		E82407E52C11C2300085403B /* SearchBombViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82407E42C11C2300085403B /* SearchBombViewController.swift */; };
+		E82407E82C12AFE60085403B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E82407E72C12AFE60085403B /* Lottie */; };
+		E82407EA2C12B0C60085403B /* radar.json in Resources */ = {isa = PBXBuildFile; fileRef = E82407E92C12B0C60085403B /* radar.json */; };
+		E82407EF2C12BA700085403B /* titlegame.png in Resources */ = {isa = PBXBuildFile; fileRef = E82407ED2C12BA6F0085403B /* titlegame.png */; };
+		E82407F02C12BA700085403B /* playgame.png in Resources */ = {isa = PBXBuildFile; fileRef = E82407EE2C12BA700085403B /* playgame.png */; };
+		E82407F22C12BB840085403B /* backgroundgame.png in Resources */ = {isa = PBXBuildFile; fileRef = E82407F12C12BB840085403B /* backgroundgame.png */; };
 		E82E1E442C1053FC00E83E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E1E432C1053FC00E83E13 /* AppDelegate.swift */; };
 		E82E1E462C1053FC00E83E13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E1E452C1053FC00E83E13 /* SceneDelegate.swift */; };
 		E82E1E482C1053FC00E83E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E1E472C1053FC00E83E13 /* ViewController.swift */; };
 		E82E1E4B2C1053FC00E83E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82E1E492C1053FC00E83E13 /* Main.storyboard */; };
 		E82E1E4D2C10540000E83E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82E1E4C2C10540000E83E13 /* Assets.xcassets */; };
 		E82E1E502C10540000E83E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82E1E4E2C10540000E83E13 /* LaunchScreen.storyboard */; };
+		E868EE1C2C241609002A58C3 /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868EE1B2C241609002A58C3 /* RoleViewController.swift */; };
+		E881F9C22C229215008A7AC7 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E881F9C02C229215008A7AC7 /* lose.mp3 */; };
+		E881F9C32C229215008A7AC7 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E881F9C12C229215008A7AC7 /* win.mp3 */; };
+		E881F9C52C22AE8A008A7AC7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E881F9C42C22AE8A008A7AC7 /* ResultViewController.swift */; };
+		E881F9CA2C22B0B0008A7AC7 /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = E881F9C92C22B0B0008A7AC7 /* confetti.json */; };
+		E881F9CD2C22B48A008A7AC7 /* defused.png in Resources */ = {isa = PBXBuildFile; fileRef = E881F9CB2C22B48A008A7AC7 /* defused.png */; };
+		E881F9CE2C22B48A008A7AC7 /* lose.png in Resources */ = {isa = PBXBuildFile; fileRef = E881F9CC2C22B48A008A7AC7 /* lose.png */; };
+		E881F9D02C22B566008A7AC7 /* background_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E881F9CF2C22B566008A7AC7 /* background_2.png */; };
+		E881F9D22C22B7E7008A7AC7 /* playagain.png in Resources */ = {isa = PBXBuildFile; fileRef = E881F9D12C22B7E7008A7AC7 /* playagain.png */; };
+		E881F9D62C22BE25008A7AC7 /* winner.json in Resources */ = {isa = PBXBuildFile; fileRef = E881F9D52C22BE24008A7AC7 /* winner.json */; };
+		E881F9E62C22D7F5008A7AC7 /* hang.json in Resources */ = {isa = PBXBuildFile; fileRef = E881F9E52C22D7F5008A7AC7 /* hang.json */; };
+		E881F9E82C23D6C5008A7AC7 /* BombViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E881F9E72C23D6C5008A7AC7 /* BombViewController.swift */; };
+		E8A4E0FE2C1AFC6A0041A408 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4E0FD2C1AFC6A0041A408 /* HomeViewController.swift */; };
+		E8A4E1022C1BF5BC0041A408 /* typing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8A4E1012C1BF5BB0041A408 /* typing.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E82407BA2C1162E30085403B /* clicks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clicks.mp3; sourceTree = "<group>"; };
+		E82407BC2C1168B00085403B /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		E82407C02C116F4B0085403B /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic.mp3; sourceTree = "<group>"; };
+		E82407C22C1172E60085403B /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		E82407E42C11C2300085403B /* SearchBombViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBombViewController.swift; sourceTree = "<group>"; };
+		E82407E92C12B0C60085403B /* radar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = radar.json; sourceTree = "<group>"; };
+		E82407ED2C12BA6F0085403B /* titlegame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlegame.png; sourceTree = "<group>"; };
+		E82407EE2C12BA700085403B /* playgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playgame.png; sourceTree = "<group>"; };
+		E82407F12C12BB840085403B /* backgroundgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundgame.png; sourceTree = "<group>"; };
 		E82E1E402C1053FC00E83E13 /* Defuse the Bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Defuse the Bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82E1E432C1053FC00E83E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E82E1E452C1053FC00E83E13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +57,20 @@
 		E82E1E4C2C10540000E83E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82E1E4F2C10540000E83E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E82E1E512C10540000E83E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E868EE1B2C241609002A58C3 /* RoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
+		E881F9C02C229215008A7AC7 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		E881F9C12C229215008A7AC7 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		E881F9C42C22AE8A008A7AC7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E881F9C92C22B0B0008A7AC7 /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		E881F9CB2C22B48A008A7AC7 /* defused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defused.png; sourceTree = "<group>"; };
+		E881F9CC2C22B48A008A7AC7 /* lose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lose.png; sourceTree = "<group>"; };
+		E881F9CF2C22B566008A7AC7 /* background_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_2.png; sourceTree = "<group>"; };
+		E881F9D12C22B7E7008A7AC7 /* playagain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playagain.png; sourceTree = "<group>"; };
+		E881F9D52C22BE24008A7AC7 /* winner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winner.json; sourceTree = "<group>"; };
+		E881F9E52C22D7F5008A7AC7 /* hang.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hang.json; sourceTree = "<group>"; };
+		E881F9E72C23D6C5008A7AC7 /* BombViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombViewController.swift; sourceTree = "<group>"; };
+		E8A4E0FD2C1AFC6A0041A408 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E8A4E1012C1BF5BB0041A408 /* typing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = typing.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82407E82C12AFE60085403B /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +107,33 @@
 				E82E1E432C1053FC00E83E13 /* AppDelegate.swift */,
 				E82E1E452C1053FC00E83E13 /* SceneDelegate.swift */,
 				E82E1E472C1053FC00E83E13 /* ViewController.swift */,
+				E82407E42C11C2300085403B /* SearchBombViewController.swift */,
 				E82E1E492C1053FC00E83E13 /* Main.storyboard */,
 				E82E1E4C2C10540000E83E13 /* Assets.xcassets */,
 				E82E1E4E2C10540000E83E13 /* LaunchScreen.storyboard */,
 				E82E1E512C10540000E83E13 /* Info.plist */,
+				E881F9E52C22D7F5008A7AC7 /* hang.json */,
+				E881F9C02C229215008A7AC7 /* lose.mp3 */,
+				E881F9C12C229215008A7AC7 /* win.mp3 */,
+				E881F9CB2C22B48A008A7AC7 /* defused.png */,
+				E881F9CC2C22B48A008A7AC7 /* lose.png */,
+				E8A4E1012C1BF5BB0041A408 /* typing.mp3 */,
+				E881F9D52C22BE24008A7AC7 /* winner.json */,
+				E82407BA2C1162E30085403B /* clicks.mp3 */,
+				E82407BC2C1168B00085403B /* click.mp3 */,
+				E82407C02C116F4B0085403B /* backgroundmusic.mp3 */,
+				E82407C22C1172E60085403B /* bomb.mp3 */,
+				E82407E92C12B0C60085403B /* radar.json */,
+				E881F9C92C22B0B0008A7AC7 /* confetti.json */,
+				E881F9CF2C22B566008A7AC7 /* background_2.png */,
+				E881F9D12C22B7E7008A7AC7 /* playagain.png */,
+				E82407F12C12BB840085403B /* backgroundgame.png */,
+				E8A4E0FD2C1AFC6A0041A408 /* HomeViewController.swift */,
+				E82407EE2C12BA700085403B /* playgame.png */,
+				E881F9C42C22AE8A008A7AC7 /* ResultViewController.swift */,
+				E82407ED2C12BA6F0085403B /* titlegame.png */,
+				E881F9E72C23D6C5008A7AC7 /* BombViewController.swift */,
+				E868EE1B2C241609002A58C3 /* RoleViewController.swift */,
 			);
 			path = "Defuse the Bomb";
 			sourceTree = "<group>";
@@ -83,6 +154,9 @@
 			dependencies = (
 			);
 			name = "Defuse the Bomb";
+			packageProductDependencies = (
+				E82407E72C12AFE60085403B /* Lottie */,
+			);
 			productName = "Defuse the Bomb";
 			productReference = E82E1E402C1053FC00E83E13 /* Defuse the Bomb.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,9 @@
 				Base,
 			);
 			mainGroup = E82E1E372C1053FC00E83E13;
+			packageReferences = (
+				E82407E62C12AFE60085403B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = E82E1E412C1053FC00E83E13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +202,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E881F9CE2C22B48A008A7AC7 /* lose.png in Resources */,
+				E82407F22C12BB840085403B /* backgroundgame.png in Resources */,
+				E82407EF2C12BA700085403B /* titlegame.png in Resources */,
 				E82E1E502C10540000E83E13 /* LaunchScreen.storyboard in Resources */,
+				E881F9D22C22B7E7008A7AC7 /* playagain.png in Resources */,
+				E881F9D02C22B566008A7AC7 /* background_2.png in Resources */,
+				E881F9D62C22BE25008A7AC7 /* winner.json in Resources */,
+				E881F9E62C22D7F5008A7AC7 /* hang.json in Resources */,
+				E881F9C32C229215008A7AC7 /* win.mp3 in Resources */,
+				E8A4E1022C1BF5BC0041A408 /* typing.mp3 in Resources */,
+				E82407BD2C1168B00085403B /* click.mp3 in Resources */,
+				E82407BB2C1162E30085403B /* clicks.mp3 in Resources */,
+				E82407C32C1172E60085403B /* bomb.mp3 in Resources */,
+				E82407EA2C12B0C60085403B /* radar.json in Resources */,
 				E82E1E4D2C10540000E83E13 /* Assets.xcassets in Resources */,
+				E881F9CA2C22B0B0008A7AC7 /* confetti.json in Resources */,
+				E881F9C22C229215008A7AC7 /* lose.mp3 in Resources */,
+				E82407F02C12BA700085403B /* playgame.png in Resources */,
+				E82407C12C116F4B0085403B /* backgroundmusic.mp3 in Resources */,
+				E881F9CD2C22B48A008A7AC7 /* defused.png in Resources */,
 				E82E1E4B2C1053FC00E83E13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A4E0FE2C1AFC6A0041A408 /* HomeViewController.swift in Sources */,
 				E82E1E482C1053FC00E83E13 /* ViewController.swift in Sources */,
 				E82E1E442C1053FC00E83E13 /* AppDelegate.swift in Sources */,
+				E881F9E82C23D6C5008A7AC7 /* BombViewController.swift in Sources */,
+				E868EE1C2C241609002A58C3 /* RoleViewController.swift in Sources */,
+				E82407E52C11C2300085403B /* SearchBombViewController.swift in Sources */,
 				E82E1E462C1053FC00E83E13 /* SceneDelegate.swift in Sources */,
+				E881F9C52C22AE8A008A7AC7 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +400,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +429,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +465,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E82407E62C12AFE60085403B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E82407E72C12AFE60085403B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E82407E62C12AFE60085403B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E82E1E382C1053FC00E83E13 /* Project object */;
 }
