@@ -71,6 +71,10 @@ class BombViewController: UIViewController, CBPeripheralManagerDelegate {
         imageToggleTimer?.invalidate()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        stopLocalBeacon()
+    }
+    
     
     
     

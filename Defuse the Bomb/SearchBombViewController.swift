@@ -21,6 +21,7 @@ class SearchBombViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        navigationController?.topViewController = hide
+        bombDetected = false
         locationManager = CLLocationManager()
         locationManager?.delegate = self
         locationManager?.requestAlwaysAuthorization()
@@ -37,8 +38,14 @@ class SearchBombViewController: UIViewController, CLLocationManagerDelegate {
         // Do any additional setup after loading the view.
     }
     
+    func showLocationServicesDisabledAlert() {
+        let alert = UIAlertController(title: "Location Services Disabled", message: "Please enable location services for this app in Settings > Privacy.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+    }
+    
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        if status == .authorizedAlways {
+        if status == .authorizedAlways ||  status == .authorizedWhenInUse {
             if CLLocationManager.isMonitoringAvailable(for: CLBeaconRegion.self) {
                 if CLLocationManager.isRangingAvailable() {
                     if !bombDetected {
@@ -47,6 +54,9 @@ class SearchBombViewController: UIViewController, CLLocationManagerDelegate {
                     
                 }
             }
+        } else if status == .denied || status == .restricted {
+            // Authorization denied or restricted, handle accordingly
+            showLocationServicesDisabledAlert()
         }
     }
     
@@ -67,11 +77,11 @@ class SearchBombViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         switch accuracy {
-        case ..<0.0:
+        case ..<0.1:
             distanceLabel.text = "Where's the Bomb"
             self.view.backgroundColor = .lightGray
             animationView?.animationSpeed = 0.5
-        case 0.0..<0.5:
+        case 0.1..<0.5:
             distanceLabel.text = "Heres the bomb"
             self.view.backgroundColor = .red
             animationView?.animationSpeed = 1.0

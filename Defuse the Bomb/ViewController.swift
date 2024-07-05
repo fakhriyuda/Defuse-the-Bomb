@@ -51,6 +51,7 @@ class ViewController: UIViewController {
         self.navigationItem.hidesBackButton = true
         //        loadSound(named: "click")
         setupUI()
+        overrideUserInterfaceStyle = .light
         
         let tutorialText = "Hey brotherrr!! You have to memorize a pattern to defuse the bomb. The bomb will explode in 3 minute!!! if you fail, u will DIE. \n\nSEARCH THE BOMB!!!"
         loadSound(named: "typing")
@@ -102,6 +103,7 @@ class ViewController: UIViewController {
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "searchBomb") as? SearchBombViewController
             
             self.startTimer()
+            self.enableTap()
             
             self.navigationController?.pushViewController(vc!, animated: true)
         }
@@ -205,6 +207,13 @@ class ViewController: UIViewController {
             button.setTitle("", for: .normal)
             button.addTarget(self, action: #selector(buttonTouchDown), for: .touchDown)
             button.addTarget(self, action: #selector(buttonTouchUp), for: [.touchUpInside,.touchUpOutside,.touchCancel])
+            button.isUserInteractionEnabled = false
+        }
+    }
+    
+    func enableTap(){
+        for button in buttons{
+            button.isUserInteractionEnabled = true
         }
     }
     
